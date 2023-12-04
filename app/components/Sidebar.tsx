@@ -17,7 +17,7 @@ import { FaGithub } from "react-icons/fa";
 const Sidebar = () => {
   return (
     <section className="mt-40 md:container sm:top-44 sm:mt-44 md:mt-[25%]  md:w-full lg:mt-40 ">
-      <nav className=" container relative flex h-max w-full flex-col items-center rounded-3xl border-2 border-primary bg-white text-black shadow-xl  shadow-green-800 dark:bg-slate-950 dark:text-white dark:shadow-green-300 lg:relative lg:float-left lg:w-2/6">
+      <nav className="pb-8 container relative flex h-max w-full flex-col items-center rounded-3xl border-2 border-primary bg-white text-black shadow-xl  shadow-green-800 dark:bg-slate-950 dark:text-white dark:shadow-green-300 lg:relative lg:float-left lg:w-2/6">
         <Image
           src={profile}
           alt="profile"
