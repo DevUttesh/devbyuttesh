@@ -16,7 +16,7 @@ const page = () => {
           {/* about me  */}
           <div className="grid">
             <div className="mb-5 flex items-center gap-2">
-              <h1 className=" mb-0 flex gap-3 items-center justify-center text-4xl font-bold after:ms-5 ">
+              <h1 className=" mb-0 flex gap-3 w-max items-center text-2xl sm:text-4xl font-bold sm:after:ms-5 ">
                 <UserCircleIcon className="text-primary" size={35} />About Me
               </h1>
               <div className=" h-1 w-1/4 rounded-full bg-gradient-to-r from-green-900 to-green-500 "></div>
@@ -29,8 +29,8 @@ const page = () => {
           {/* What i do  */}
           <div className="grid">
 
-            <div className="mb-5 flex items-center gap-2">
-              <h1 className=" mb-0 items-center flex gap-3 text-4xl font-bold after:ms-5 ">
+            <div className="mb-5 flex gap-3 items-center">
+              <h1 className=" mb-0 items-center flex gap-3 text-2xl sm:text-4xl font-bold sm:after:ms-5 ">
                 <Wrench size={35} className="text-yellow-400" />What I Do !
               </h1>
               <div className=" h-1 w-1/4 rounded-full bg-gradient-to-r from-green-900 to-green-500 "></div>
@@ -62,7 +62,7 @@ const page = () => {
             {/* education heading */}
             <div className="grid">
               <div className="mb-5 flex items-center gap-2">
-                <div className="flex gap-3 items-center text-4xl font-bold after:ms-5">
+                <div className="flex gap-3 items-center text-2xl sm:text-4xl font-bold sm:after:ms-5">
                   <GraduationCap size={35} className="text-blue-500" />
                   <h1 className=" mb-0" >Education</h1>
                 </div>
@@ -70,7 +70,7 @@ const page = () => {
               </div>
             </div>
 
-            <div className="grid grid-rows-1 grid-cols-2 gap-5 h-max">
+            <div className="grid grid-rows-1 grid-cols-1 sm:grid-cols-2 gap-5 h-max">
 
               <div className="grid h-max gap-y-3 rounded-xl border-2 border-primary px-5 py-5 transition duration-100 ease-in-out hover:bg-gradient-to-b hover:from-green-900 hover:to-green-500 hover:text-white dark:border-slate-800">
                 <p className="text-sm text-slate-600 dark:text-slate-400">
@@ -104,7 +104,7 @@ const page = () => {
             {/* skills heading */}
             <div className="grid">
               <div className="mb-5 flex items-center gap-2">
-                <div className="flex gap-3 items-center text-4xl font-bold after:ms-5">
+                <div className="flex gap-3 items-center text-2xl sm:text-4xl font-bold sm:after:ms-5">
                   <h1 className=" mb-0 flex gap-3 items-center" ><ThumbsUp className="text-purple-500" size={35} />Skills</h1>
                 </div>
                 <div className=" h-1 w-1/4 rounded-full bg-gradient-to-r from-green-900 to-green-500 "></div>
@@ -147,7 +147,7 @@ const page = () => {
             {/* skills heading */}
             <div className="grid">
               <div className="mb-5 flex items-center gap-2">
-                <div className="flex gap-3 items-center text-4xl font-bold after:ms-5">
+                <div className="flex gap-3 items-center text-2xl sm:text-4xl font-bold sm:after:ms-5">
                   <h1 className=" mb-0 flex gap-3 items-center" ><BookOpenCheck className="text-orange-400" size={35} />Knowledges</h1>
                 </div>
                 <div className=" h-1 w-1/4 rounded-full bg-gradient-to-r from-green-900 to-green-500 "></div>
